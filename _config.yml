@@ -1,0 +1,25 @@
+# Site settings
+title: ML & Data Science Portfolio
+description: Machine Learning Engineer & Data Scientist | Transforming data into actionable insights
+author: Your Name
+
+# Theme settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Optional settings
+logo: /assets/img/profile.jpg # Add your profile picture here
+show_downloads: false
+
+# Social links (optional - customize with your own)
+github_username: MrEleden
+linkedin_username: your-linkedin
+email: your.email@example.com
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# SEO settings
+lang: en-US
