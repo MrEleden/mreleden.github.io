@@ -4,35 +4,9 @@ layout: default
 
 # Welcome to My ML & Data Science Portfolio
 
-Hi! I'm **Mathias Villerabel**, a **Machine Learning Engineer** and **Data Scientist** passionate about leveraging data to solve real-world problems. I specialize in building scalable ML models, data pipelines, and deriving actionable insights from complex datasets.
+Hi! I'm **Mathias Villerabel**, an **AI Engineer** and **Data Scientist** passionate about leveraging data to solve real-world problems. I specialize in building scalable ML models, data pipelines, and deriving actionable insights from complex datasets.
 
 📄 **[Download My CV (PDF)](./assets/pdf/cv_villerabel_mathias_2025_eng.pdf)**
-
----
-
-## 🎯 Core Competencies
-
-### Machine Learning & AI
-- **Supervised Learning**: Regression, Classification, Ensemble Methods
-- **Unsupervised Learning**: Clustering, Dimensionality Reduction, Anomaly Detection
-- **Deep Learning**: Neural Networks, CNNs, RNNs, Transformers
-- **NLP**: Text Classification, Named Entity Recognition, Sentiment Analysis
-- **Computer Vision**: Image Classification, Object Detection, Segmentation
-
-### Data Science & Analytics
-- Exploratory Data Analysis (EDA)
-- Statistical Modeling & Hypothesis Testing
-- Feature Engineering & Selection
-- A/B Testing & Experimentation
-- Time Series Analysis & Forecasting
-
-### Technical Skills
-- **Languages**: Python, R, SQL, Bash
-- **ML Frameworks**: TensorFlow, PyTorch, Scikit-learn, XGBoost, LightGBM
-- **Data Tools**: Pandas, NumPy, Matplotlib, Seaborn, Plotly
-- **Big Data**: Apache Spark, Hadoop, Hive
-- **Cloud Platforms**: AWS (SageMaker, EC2, S3), Azure, GCP
-- **MLOps**: Docker, Kubernetes, MLflow, Git, CI/CD
 
 ---
 
@@ -66,12 +40,29 @@ Computer vision project for semantic segmentation of architectural floorplans us
 
 ---
 
-## 📊 Recent Achievements
+## 🎯 Core Competencies
 
-- 🏆 **Kaggle Expert** - Top 3% in multiple competitions
-- 📚 Published research paper on "Deep Learning for Medical Image Analysis"
-- 🎓 AWS Certified Machine Learning - Specialty
-- 💡 Contributed to open-source ML projects with 500+ GitHub stars
+### Machine Learning & AI
+- **Supervised Learning**: Regression, Classification, Ensemble Methods
+- **Unsupervised Learning**: Clustering, Dimensionality Reduction, Anomaly Detection
+- **Deep Learning**: Neural Networks, CNNs, RNNs, Transformers
+- **NLP**: Text Classification, Named Entity Recognition, Sentiment Analysis
+- **Computer Vision**: Image Classification, Object Detection, Segmentation
+
+### Data Science & Analytics
+- Exploratory Data Analysis (EDA)
+- Statistical Modeling & Hypothesis Testing
+- Feature Engineering & Selection
+- A/B Testing & Experimentation
+- Time Series Analysis & Forecasting
+
+### Technical Skills
+- **Languages**: Python, R, SQL, Bash
+- **ML Frameworks**: TensorFlow, PyTorch, Scikit-learn, XGBoost, LightGBM
+- **Data Tools**: Pandas, NumPy, Matplotlib, Seaborn, Plotly
+- **Big Data**: Apache Spark, Hadoop, Hive
+- **Cloud Platforms**: AWS (SageMaker, EC2, S3), Azure, GCP
+- **MLOps**: Docker, Kubernetes, MLflow, Git, CI/CD
 
 ---
 

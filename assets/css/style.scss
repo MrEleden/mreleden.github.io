@@ -3,16 +3,36 @@
 
 @import "{{ site.theme }}";
 
-/* Custom styles for ML/Data Science Portfolio */
+/* Dark Theme for ML/Data Science Portfolio */
+
+/* Root variables for dark theme */
+:root {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --bg-tertiary: #3a3a3a;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --accent-color: #4a9eff;
+  --accent-hover: #6bb0ff;
+  --border-color: #404040;
+}
+
+/* Global dark theme */
+body {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
 
 /* Enhanced header section */
 header {
   padding-top: 20px;
+  background-color: var(--bg-secondary) !important;
+  border-right: 1px solid var(--border-color);
 }
 
 header h1 a {
   font-weight: 700;
-  color: #222;
+  color: var(--text-primary) !important;
 }
 
 header img {
@@ -20,8 +40,31 @@ header img {
   max-width: 200px;
   margin: 20px auto;
   display: block;
-  border: 3px solid #267CB9;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border: 3px solid var(--accent-color);
+  box-shadow: 0 4px 12px rgba(74, 158, 255, 0.3);
+}
+
+header p {
+  color: var(--text-secondary) !important;
+}
+
+/* Section styling */
+section {
+  background-color: var(--bg-primary) !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary) !important;
+}
+
+/* Links */
+a {
+  color: var(--accent-color) !important;
+}
+
+a:hover {
+  color: var(--accent-hover) !important;
 }
 
 /* Enhanced section styling */
@@ -34,23 +77,23 @@ section {
   display: inline-block;
   padding: 4px 10px;
   margin: 2px;
-  background: #f4f4f4;
+  background: var(--bg-tertiary);
   border-radius: 4px;
   font-size: 12px;
-  color: #555;
-  border: 1px solid #e0e0e0;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
 }
 
 .badge:hover {
-  background: #267CB9;
+  background: var(--accent-color);
   color: white;
-  border-color: #267CB9;
+  border-color: var(--accent-color);
 }
 
 /* Skill bars styling */
 .skill-bar {
   height: 20px;
-  background: #f4f4f4;
+  background: var(--bg-tertiary);
   border-radius: 10px;
   overflow: hidden;
   margin: 5px 0;
@@ -58,53 +101,49 @@ section {
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(90deg, #267CB9, #069);
+  background: linear-gradient(90deg, var(--accent-color), #6bb0ff);
   transition: width 0.3s ease;
 }
 
 /* Enhanced code blocks */
 pre {
-  background: #f8f9fa;
-  border-left: 4px solid #267CB9;
+  background: var(--bg-secondary) !important;
+  border-left: 4px solid var(--accent-color);
   padding: 15px;
   border-radius: 4px;
   overflow-x: auto;
+  color: var(--text-primary) !important;
 }
 
 code {
-  background: #f4f4f4;
+  background: var(--bg-tertiary) !important;
   padding: 2px 6px;
   border-radius: 3px;
   font-size: 13px;
+  color: var(--text-primary) !important;
 }
 
 /* Project cards */
 .project-card {
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 20px;
   margin: 20px 0;
   transition: all 0.3s ease;
-  background: #fafafa;
+  background: var(--bg-secondary);
 }
 
 .project-card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  border-color: #267CB9;
+  box-shadow: 0 4px 12px rgba(74, 158, 255, 0.2);
+  border-color: var(--accent-color);
   transform: translateY(-2px);
 }
 
-/* Enhanced links */
-a {
-  color: #267CB9;
-  text-decoration: none;
-  transition: all 0.2s ease;
+/* Images */
+img {
+  border-radius: 8px;
+  max-width: 100%;
 }
-
-a:hover, a:focus {
-  color: #069;
-  font-weight: bold;
-  text-decoration: none;
 }
 
 /* Emoji and icon spacing */
@@ -117,7 +156,7 @@ h2::before, h3::before {
   display: inline-block;
   padding: 15px 20px;
   margin: 10px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--accent-color) 0%, #6bb0ff 100%);
   color: white;
   border-radius: 8px;
   text-align: center;
@@ -139,12 +178,12 @@ h2::before, h3::before {
 
 /* Enhanced blockquotes */
 blockquote {
-  border-left: 4px solid #267CB9;
+  border-left: 4px solid var(--accent-color);
   padding: 10px 20px;
   margin: 20px 0;
-  background: #f9f9f9;
+  background: var(--bg-secondary);
   font-style: italic;
-  color: #555;
+  color: var(--text-secondary) !important;
 }
 
 /* Table enhancements */
@@ -152,10 +191,11 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin: 20px 0;
+  background: var(--bg-secondary);
 }
 
 th {
-  background: #267CB9;
+  background: var(--accent-color);
   color: white;
   padding: 10px;
   text-align: left;
@@ -163,18 +203,19 @@ th {
 
 td {
   padding: 10px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-primary);
 }
 
 tr:hover {
-  background: #f9f9f9;
+  background: var(--bg-tertiary);
 }
 
 /* Horizontal rule styling */
 hr {
   border: 0;
   height: 2px;
-  background: linear-gradient(to right, transparent, #267CB9, transparent);
+  background: linear-gradient(to right, transparent, var(--accent-color), transparent);
   margin: 30px 0;
 }
 
@@ -182,8 +223,8 @@ hr {
 .button, .btn {
   display: inline-block;
   padding: 10px 20px;
-  background: #267CB9;
-  color: white;
+  background: var(--accent-color);
+  color: white !important;
   border-radius: 5px;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -192,9 +233,9 @@ hr {
 }
 
 .button:hover, .btn:hover {
-  background: #069;
+  background: var(--accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(74, 158, 255, 0.3);
 }
 
 /* Social links */
@@ -206,31 +247,27 @@ hr {
   display: inline-block;
   margin: 5px 10px;
   padding: 8px 15px;
-  background: #f4f4f4;
+  background: var(--bg-tertiary);
   border-radius: 5px;
+  border: 1px solid var(--border-color);
   transition: all 0.3s ease;
 }
 
 .social-links a:hover {
-  background: #267CB9;
-  color: white;
+  background: var(--accent-color);
+  color: white !important;
   transform: scale(1.05);
-}
-
-/* Responsive image adjustments */
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
 }
 
 /* Enhanced lists */
 ul, ol {
   line-height: 1.8;
+  color: var(--text-primary);
 }
 
 li {
   margin: 5px 0;
+  color: var(--text-primary);
 }
 
 /* Checkbox styling for task lists */
@@ -247,13 +284,19 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   padding-bottom: 10px;
-  border-bottom: 2px solid #e5e5e5;
+  border-bottom: 2px solid var(--border-color);
 }
 
 /* Footer enhancements */
 footer {
-  color: #666;
+  color: var(--text-secondary) !important;
   font-size: 12px;
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+footer p {
+  color: var(--text-secondary) !important;
 }
 
 footer a {

@@ -13,7 +13,7 @@ title: About Me
 
 ## 👨‍💻 Professional Background
 
-I'm a passionate **Machine Learning Engineer** and **Data Scientist** transforming complex data into actionable insights and building scalable ML solutions. My work spans across various domains including time series forecasting, recommendation systems, and computer vision.
+I'm a passionate **AI Engineer** and **Data Scientist** transforming complex data into actionable insights and building scalable ML solutions. My work spans across various domains including time series forecasting, recommendation systems, and computer vision.
 
 I specialize in the complete machine learning lifecycle—from problem formulation and data collection to model deployment and monitoring. I believe in creating not just accurate models, but practical solutions that deliver real business value.
 
