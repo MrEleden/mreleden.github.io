@@ -11,7 +11,9 @@ Here's a comprehensive overview of my machine learning and data science projects
 
 ---
 
-## <a name="project1"></a>� Time Series Forecasting Demo
+## <a name="project1"></a>📈 Time Series Forecasting Demo
+
+![Forecasting Dashboard](./assets/img/Screenshot%202025-10-15%20120608.png)
 
 **Overview**: Production-grade forecasting portfolio demonstrating reusable ML components across diverse domains including retail sales, rideshare demand, and inventory planning.
 
@@ -72,6 +74,8 @@ src/ml_portfolio/
 ---
 
 ## <a name="project2"></a>🎬 Movie Recommendation System
+
+![Recommendation System Demo](./assets/img/Screenshot%202025-10-15%20120714.png)
 
 **Overview**: End-to-end recommendation system demonstrating the complete ML lifecycle from PyTorch basics to production deployment with comprehensive experiment tracking and hyperparameter tuning.
 
@@ -139,6 +143,8 @@ src/
 ---
 
 ## <a name="project3"></a>🏗️ Floorplan Wall Segmentation (2D to 3D)
+
+![Wall Segmentation Results](./assets/img/best_validation_sample.png)
 
 **Overview**: Computer vision project for semantic segmentation of architectural floorplans, identifying walls to enable automated 2D-to-3D conversion for architectural visualization.
 

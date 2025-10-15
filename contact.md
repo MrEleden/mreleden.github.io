@@ -100,10 +100,10 @@ A: Absolutely! I enjoy speaking at conferences and meetups. Send me an invitatio
 
 ## 📄 Resources
 
-- 📥 [Download My Resume (PDF)](#)
+- 📥 [Download My CV (PDF)](./assets/pdf/cv_villerabel_mathias_2025_eng.pdf)
 - 📊 [View My GitHub Profile](https://github.com/MrEleden)
-- 📚 [Read My Blog Posts](#)
-- 🎓 [View My Certifications](#)
+- 🎬 [Try My Live Demos](./projects.html)
+- 💼 [LinkedIn Profile](https://linkedin.com/in/yourprofile)
 
 ---
 

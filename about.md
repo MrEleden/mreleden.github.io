@@ -5,11 +5,18 @@ title: About Me
 
 [← Back to Home](./index.html)
 
-# About Me
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="./assets/img/profilpic.jpg" alt="Mathias Villerabel" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <h1>Mathias Villerabel</h1>
+  <p style="font-size: 1.2rem; color: #666;">Machine Learning Engineer & Data Scientist</p>
+  <p><strong>📄 <a href="./assets/pdf/cv_villerabel_mathias_2025_eng.pdf" download>Download My CV (PDF)</a></strong></p>
+</div>
+
+---
 
 ## 👨‍💻 Professional Background
 
-I'm a passionate **Machine Learning Engineer** and **Data Scientist** with [X years] of experience transforming complex data into actionable insights and building scalable ML solutions. My work spans across various industries including healthcare, finance, e-commerce, and manufacturing.
+I'm a passionate **Machine Learning Engineer** and **Data Scientist** transforming complex data into actionable insights and building scalable ML solutions. My work spans across various domains including time series forecasting, recommendation systems, and computer vision.
 
 I specialize in the complete machine learning lifecycle—from problem formulation and data collection to model deployment and monitoring. I believe in creating not just accurate models, but practical solutions that deliver real business value.
 

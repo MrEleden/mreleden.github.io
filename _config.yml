@@ -10,7 +10,7 @@ plugins:
   - jekyll-seo-tag
 
 # Optional settings
-logo: /assets/img/profile.jpg # Add your profile picture here
+logo: /assets/img/profilpic.jpg # Profile picture shown in sidebar
 show_downloads: false
 
 # Social links (optional - customize with your own)
