@@ -45,6 +45,7 @@ Hi! I'm **Mathias Villerabel**, a **Machine Learning Engineer** and **Data Scien
 ### [Project 1: Time Series Forecasting Demo](./projects.html#project1)
 
 ![Forecasting Dashboard](./assets/img/Screenshot%202025-10-15%20120608.png)
+![Forecasting Results](./assets/img/Screenshot%202025-10-15%20120714.png)
 
 Production-grade forecasting portfolio demonstrating reusable components across retail, rideshare, and inventory domains. Features multiple model architectures with MLflow tracking and Optuna optimization.
 - **Tech Stack**: Python, PyTorch, Hydra, MLflow, Optuna, Streamlit
@@ -53,7 +54,6 @@ Production-grade forecasting portfolio demonstrating reusable components across 
 
 ### [Project 2: Movie Recommendation System](./projects.html#project2)
 
-![Recommendation System](./assets/img/Screenshot%202025-10-15%20120714.png)
 End-to-end recommendation system with multiple ML models showcasing the evolution from PyTorch basics to production deployment with experiment tracking and hyperparameter tuning.
 - **Tech Stack**: PyTorch, Hydra, MLflow, Optuna, Gradio, Streamlit
 - **Results**: RMSE ~0.323, deployed on Hugging Face Spaces, 100K+ ratings processed

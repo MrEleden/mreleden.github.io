@@ -15,6 +15,8 @@ Here's a comprehensive overview of my machine learning and data science projects
 
 ![Forecasting Dashboard](./assets/img/Screenshot%202025-10-15%20120608.png)
 
+![Forecasting Results](./assets/img/Screenshot%202025-10-15%20120714.png)
+
 **Overview**: Production-grade forecasting portfolio demonstrating reusable ML components across diverse domains including retail sales, rideshare demand, and inventory planning.
 
 ### Challenge
@@ -74,8 +76,6 @@ src/ml_portfolio/
 ---
 
 ## <a name="project2"></a>🎬 Movie Recommendation System
-
-![Recommendation System Demo](./assets/img/Screenshot%202025-10-15%20120714.png)
 
 **Overview**: End-to-end recommendation system demonstrating the complete ML lifecycle from PyTorch basics to production deployment with comprehensive experiment tracking and hyperparameter tuning.
 
