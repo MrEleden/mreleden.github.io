@@ -50,14 +50,23 @@
 /* Apply theme colors */
 body {
   background-color: var(--surface) !important;
-  color: var(--outline) !important;
+  color: var(--on-surface) !important;
+}
+
+/* Ensure all text is visible */
+p, div, span, li, td {
+  color: var(--on-surface) !important;
+}
+
+strong, b {
+  color: var(--on-surface) !important;
 }
 
 /* Enhanced header section */
 header {
   padding-top: 20px;
   background-color: var(--surface) !important;
-  border-right: 1px solid var(--border);
+  border-right: none;
 }
 
 header h1, header h1 a {
@@ -75,12 +84,17 @@ header img {
 }
 
 header p {
-  color: var(--outline-variant) !important;
+  color: var(--on-surface-variant) !important;
 }
 
 /* Section styling */
 section {
   background-color: var(--surface) !important;
+  color: var(--on-surface) !important;
+}
+
+section p, section li, section div {
+  color: var(--on-surface) !important;
 }
 
 /* Headings */

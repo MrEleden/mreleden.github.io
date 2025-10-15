@@ -54,7 +54,10 @@
     </div>
     
     <!-- Dark mode toggle button - OUTSIDE wrapper for proper positioning -->
-    <button id="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+    <button id="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode" 
+            style="position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; border-radius: 50%; background: #448aff; border: none; color: white; font-size: 28px; cursor: pointer; box-shadow: 0 4px 20px rgba(68, 138, 255, 0.5); z-index: 9999; display: flex; align-items: center; justify-content: center;">
+      🌙
+    </button>
     
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
