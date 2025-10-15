@@ -36,20 +36,21 @@ Hi! I'm a **Machine Learning Engineer** and **Data Scientist** passionate about 
 
 ## 🚀 Featured Projects
 
-### [Project 1: Predictive Maintenance System](./projects.html#project1)
-Built an end-to-end machine learning pipeline to predict equipment failures before they occur, reducing downtime by 35%.
-- **Tech Stack**: Python, XGBoost, Pandas, Docker
-- **Results**: 92% accuracy, saved $500K annually
+### [Project 1: Time Series Forecasting Demo](./projects.html#project1)
+Production-grade forecasting portfolio demonstrating reusable components across retail, rideshare, and inventory domains. Features multiple model architectures with MLflow tracking and Optuna optimization.
+- **Tech Stack**: Python, PyTorch, Hydra, MLflow, Optuna, Streamlit
+- **Results**: 7.1% MAPE on Walmart retail, 80K+ samples, comprehensive benchmark suite
+- **Live Demo**: [Try the Streamlit App](https://forecastingdemo-jgkrsrcxen3wzvjcappbgra.streamlit.app/)
 
-### [Project 2: Customer Churn Prediction](./projects.html#project2)
-Developed a classification model to identify customers at risk of churning, enabling targeted retention campaigns.
-- **Tech Stack**: Python, Scikit-learn, AWS SageMaker
-- **Results**: 88% precision, increased retention by 20%
+### [Project 2: Movie Recommendation System](./projects.html#project2)
+End-to-end recommendation system with multiple ML models showcasing the evolution from PyTorch basics to production deployment with experiment tracking and hyperparameter tuning.
+- **Tech Stack**: PyTorch, Hydra, MLflow, Optuna, Gradio, Streamlit
+- **Results**: RMSE ~0.323, deployed on Hugging Face Spaces, 100K+ ratings processed
 
-### [Project 3: NLP Sentiment Analysis Dashboard](./projects.html#project3)
-Created an interactive dashboard for real-time sentiment analysis of customer reviews using transformer models.
-- **Tech Stack**: Python, BERT, Streamlit, PostgreSQL
-- **Results**: Processed 1M+ reviews, 94% accuracy
+### [Project 3: Floorplan Wall Segmentation](./projects.html#project3)
+Computer vision project for semantic segmentation of architectural floorplans using deep learning, addressing severe class imbalance challenges.
+- **Tech Stack**: PyTorch, DeepLabV3, OpenCV, Hydra
+- **Results**: 99.4% accuracy, 80K+ training samples, ONNX export for deployment
 
 [View All Projects →](./projects.html)
 

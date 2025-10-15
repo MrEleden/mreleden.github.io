@@ -99,26 +99,27 @@ Java            ██████████░░░░░░░░░░  In
 ```
 
 ### Machine Learning & AI
-- **Classical ML**: Regression, Classification, Clustering, Ensemble Methods
-- **Deep Learning**: CNNs, RNNs, LSTMs, Transformers, GANs
-- **NLP**: BERT, GPT, Text Classification, NER, Topic Modeling
-- **Computer Vision**: Image Classification, Object Detection, Segmentation
-- **Reinforcement Learning**: Q-Learning, Policy Gradients
+- **Classical ML**: Gradient Boosting (XGBoost, LightGBM, CatBoost), Ensemble Methods
+- **Deep Learning**: CNNs, RNNs, LSTMs, TCN, Transformers, DeepLabV3
+- **Time Series**: Prophet, ARIMA, SARIMA, LSTM, TCN, Transformer architectures
+- **Computer Vision**: Semantic Segmentation, DeepLabV3, Image Processing, ONNX
+- **Recommender Systems**: Collaborative Filtering, Deep CF, Hybrid Models, Matrix Factorization
 
 ### Tools & Frameworks
-- **ML/DL**: TensorFlow, PyTorch, Scikit-learn, XGBoost, LightGBM, Keras
-- **Data**: Pandas, NumPy, Dask, PySpark
-- **Visualization**: Matplotlib, Seaborn, Plotly, Tableau
-- **MLOps**: MLflow, Kubeflow, Docker, Kubernetes
-- **Cloud**: AWS (SageMaker, EC2, S3, Lambda), Azure ML, GCP
+- **ML/DL**: PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, CatBoost
+- **Data**: Pandas, NumPy, SQL
+- **Visualization**: Matplotlib, Seaborn, Plotly, Streamlit, Gradio
+- **MLOps**: Hydra, MLflow, Optuna, Docker, FastAPI
+- **Computer Vision**: OpenCV, Albumentations, ONNX
+- **Deployment**: Streamlit, Gradio, FastAPI, Hugging Face Spaces, Docker
 
 ### Specializations
-- Time Series Forecasting
-- Anomaly Detection
-- Recommendation Systems
-- A/B Testing & Experimentation
-- Feature Engineering
-- Model Interpretability (SHAP, LIME)
+- **Time Series Forecasting**: Multi-model benchmarking, statistical & DL approaches
+- **Recommender Systems**: Neural collaborative filtering, hybrid models
+- **Computer Vision**: Semantic segmentation, class imbalance handling
+- **MLOps**: Experiment tracking, hyperparameter optimization, reproducible research
+- **Production Deployment**: API serving, containerization, cloud deployment
+- **Configuration Management**: Hydra-based experiment workflows
 
 ---
 

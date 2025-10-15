@@ -1,7 +1,7 @@
 # Site settings
 title: ML & Data Science Portfolio
 description: Machine Learning Engineer & Data Scientist | Transforming data into actionable insights
-author: Your Name
+author: Mathias Villerabel
 
 # Theme settings
 remote_theme: pages-themes/minimal@v0.2.0
@@ -15,8 +15,8 @@ show_downloads: false
 
 # Social links (optional - customize with your own)
 github_username: MrEleden
-linkedin_username: your-linkedin
-email: your.email@example.com
+linkedin_username: https://www.linkedin.com/in/mathias-villerabel-ba32b0146/
+email: m.villerabel@gmail.com
 
 # Google Analytics (optional)
 # google_analytics: UA-XXXXXXXXX-X
