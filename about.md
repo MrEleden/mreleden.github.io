@@ -5,12 +5,9 @@ title: About Me
 
 [← Back to Home](./index.html)
 
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="./assets/img/profilpic.jpg" alt="Mathias Villerabel" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <h1>Mathias Villerabel</h1>
-  <p style="font-size: 1.2rem; color: #666;">Machine Learning Engineer & Data Scientist</p>
-  <p><strong>📄 <a href="./assets/pdf/cv_villerabel_mathias_2025_eng.pdf" download>Download My CV (PDF)</a></strong></p>
-</div>
+# About Mathias Villerabel
+
+**📄 [Download My CV (PDF)](./assets/pdf/cv_villerabel_mathias_2025_eng.pdf)**
 
 ---
 

@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<div style="text-align: center; margin-bottom: 2rem;">
-  <img src="./assets/img/profilpic.jpg" alt="Mathias Villerabel" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-</div>
-
 # Welcome to My ML & Data Science Portfolio
 
 Hi! I'm **Mathias Villerabel**, a **Machine Learning Engineer** and **Data Scientist** passionate about leveraging data to solve real-world problems. I specialize in building scalable ML models, data pipelines, and deriving actionable insights from complex datasets.
