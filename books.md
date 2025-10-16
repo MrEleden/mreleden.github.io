@@ -32,22 +32,23 @@ A comprehensive guide to building production-ready machine learning systems. Thi
 
 ## AI Engineering
 
-### [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)
+### [AI Engineering: Building Applications with Foundation Models](https://www.oreilly.com/library/view/ai-engineering/9781098166298/)
 **by Chip Huyen**
 
-An in-depth guide to designing reliable, scalable, and maintainable ML systems in production. Focuses on the engineering challenges of deploying ML at scale.
+A comprehensive guide to building AI applications with foundation models (LLMs, vision models, multimodal models). Focuses on practical engineering challenges of developing, deploying, and maintaining AI systems powered by foundation models.
 
 **Key Topics**:
-- ML system design patterns
-- Data engineering for ML
-- Feature stores and feature engineering
-- Model deployment strategies
-- Continual learning and model updates
-- ML monitoring and observability
-- A/B testing and experimentation
-- Edge deployment and optimization
+- Foundation models and their capabilities
+- Prompt engineering and optimization
+- Model evaluation and testing
+- Fine-tuning and adaptation strategies
+- RAG (Retrieval-Augmented Generation) systems
+- AI system design patterns
+- Model deployment and serving
+- Cost optimization and latency management
+- Safety, security, and responsible AI
 
-**Why I recommend it**: Covers the complete spectrum of building production ML systems, from data pipelines to monitoring. Invaluable for understanding how to operationalize ML at scale.
+**Why I recommend it**: Essential for understanding how to build production AI applications in the era of foundation models. Covers the complete lifecycle from prompt design to deployment, with practical engineering insights for working with LLMs and other foundation models.
 
 ---
 

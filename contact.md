@@ -76,7 +76,7 @@ I typically respond within 24-48 hours.
 
 ## 🗺️ Location
 
-📍 Currently based in **[Your City, Country]**
+📍 Currently based in **Paris, France**
 
 🌍 Open to remote opportunities worldwide
 
