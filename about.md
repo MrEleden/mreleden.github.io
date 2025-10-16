@@ -127,6 +127,9 @@ I'm always interested in discussing ML/AI projects, collaborating on innovative 
 **Contact Information**:
 - 📧 Email: [m.villerabel@gmail.com](mailto:m.villerabel@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/mathias-villerabel-ba32b0146](https://www.linkedin.com/in/mathias-villerabel-ba32b0146/)
+
+**[Learn More About Me →](./about.html)**
+
 - 🐙 GitHub: [github.com/MrEleden](https://github.com/MrEleden)
 
 ---
