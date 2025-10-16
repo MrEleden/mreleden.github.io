@@ -13,81 +13,58 @@ title: About Me
 
 ## 👨‍💻 Professional Background
 
-I'm a passionate **AI Engineer** and **Data Scientist** transforming complex data into actionable insights and building scalable ML solutions. My work spans across various domains including time series forecasting, recommendation systems, and computer vision.
+I'm a passionate **AI Engineer** and **Data Scientist** with expertise in building production-grade machine learning systems. My work focuses on transforming complex data into actionable insights through scalable ML models, data pipelines, and end-to-end MLOps solutions.
 
-I specialize in the complete machine learning lifecycle—from problem formulation and data collection to model deployment and monitoring. I believe in creating not just accurate models, but practical solutions that deliver real business value.
+I specialize in the complete machine learning lifecycle—from problem formulation and exploratory data analysis to model deployment, monitoring, and optimization. My approach combines deep technical expertise with practical engineering to deliver solutions that create real business value.
+
+### Core Competencies
+- **Time Series Forecasting**: Statistical and deep learning models with MLflow tracking and Optuna optimization
+- **Recommendation Systems**: Collaborative filtering, deep learning, and hybrid approaches with production deployment
+- **Computer Vision**: Semantic segmentation, handling class imbalance, and ONNX model export
+- **MLOps**: Hydra configuration management, experiment tracking, containerization, and cloud deployment
 
 ---
 
 ## 🎓 Education
 
-**Master of Science in Computer Science**  
-*[University Name]* | [Year]  
-Specialization: Machine Learning & Artificial Intelligence  
-Thesis: "Deep Learning Approaches for [Your Research Topic]"
-
-**Bachelor of Science in [Your Field]**  
-*[University Name]* | [Year]  
-Focus: Statistics, Mathematics, Computer Science
+**Engineering Degree in Computer Science**  
+*Engineering School* | France  
+Specialization: Machine Learning, Data Science, and Software Engineering
 
 ---
 
-## 💼 Professional Experience
+## 💼 Professional Experience & Projects
 
-### Senior Machine Learning Engineer
-**[Company Name]** | [Start Date] - Present
+### AI Engineer & Data Scientist
+**Independent Projects & Portfolio** | 2024 - Present
 
-- Lead ML team in developing production-grade models serving 1M+ users
-- Architected and deployed end-to-end ML pipelines on AWS
-- Improved model performance by 35% through advanced feature engineering
-- Mentored junior data scientists and established ML best practices
-- Collaborated with cross-functional teams to identify ML opportunities
+**Time Series Forecasting Portfolio**
+- Developed comprehensive forecasting system with 10+ model architectures (LightGBM, XGBoost, Prophet, LSTM, TCN, Transformer)
+- Achieved 7.1% MAPE on Walmart retail sales forecasting with 80K+ time series samples
+- Implemented complete MLOps workflow with Hydra, MLflow, and Optuna
+- Deployed interactive Streamlit dashboard for model comparison and visualization
+- Containerized solution with Docker for production-ready deployment
 
-### Data Scientist
-**[Company Name]** | [Start Date] - [End Date]
+**Movie Recommendation System**
+- Built multiple recommendation models: Deep Collaborative Filtering, Hybrid, and Content-based approaches
+- Achieved RMSE ~0.323 on MovieLens dataset (100K+ ratings)
+- Deployed live demo on Hugging Face Spaces with Gradio and Streamlit interfaces
+- Implemented comprehensive experiment tracking and hyperparameter optimization
 
-- Built predictive models for customer behavior analysis
-- Conducted A/B tests and statistical analysis to drive product decisions
-- Developed automated reporting dashboards using Python and SQL
-- Reduced customer churn by 20% through targeted ML interventions
-- Presented insights to C-level executives and stakeholders
+**Computer Vision: Floorplan Segmentation**
+- Developed semantic segmentation system using DeepLabV3 with ResNet50 backbone
+- Achieved 99.4% accuracy on RPLAN dataset (80K+ architectural images)
+- Solved severe class imbalance challenge (Background: 96.2%, Walls: 3.7%)
+- Implemented morphological postprocessing pipeline with OpenCV
+- Exported models to ONNX format for cross-platform deployment
 
-### Junior Data Analyst
-**[Company Name]** | [Start Date] - [End Date]
-
-- Performed exploratory data analysis on large datasets
-- Created data visualizations and reports for business intelligence
-- Cleaned and preprocessed data for ML pipelines
-- Collaborated with engineering teams on data infrastructure
-
----
-
-## 🏆 Certifications & Awards
-
-- **AWS Certified Machine Learning - Specialty** (2024)
-- **Google Cloud Professional Data Engineer** (2023)
-- **TensorFlow Developer Certificate** (2023)
-- **Kaggle Expert** - Top 3% globally
-- **Winner**: [ML Competition Name] - [Year]
-- **Best Paper Award**: [Conference Name] - [Year]
-
----
-
-## 📚 Publications & Research
-
-### "Deep Learning for Medical Image Analysis"
-*Journal of Artificial Intelligence in Healthcare* | 2024  
-Co-authored research on applying CNNs for early disease detection with 95% accuracy.
-
-### "Federated Learning for Privacy-Preserving ML"
-*International Conference on Machine Learning* | 2023  
-Presented novel approach to distributed machine learning on sensitive data.
-
-### "Explainable AI in Financial Services"
-*AI & Finance Symposium* | 2023  
-Research on interpretable models for credit risk assessment.
-
-[View All Publications →](#)
+### Technical Skills Applied
+- **Development**: Python, SQL, Git, CI/CD
+- **ML/DL Frameworks**: PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, CatBoost
+- **MLOps Tools**: Hydra, MLflow, Optuna, Docker, FastAPI
+- **Data Processing**: Pandas, NumPy, OpenCV, Albumentations
+- **Visualization**: Matplotlib, Seaborn, Plotly, Streamlit, Gradio
+- **Cloud & Deployment**: Hugging Face Spaces, Streamlit Cloud, GitHub Actions
 
 ---
 
@@ -127,63 +104,31 @@ Java            ██████████░░░░░░░░░░  In
 
 ---
 
-## 🌟 What I'm Currently Learning
+## 🌟 Areas of Interest
 
-- 🔥 Large Language Models (LLMs) and Prompt Engineering
-- 🚀 MLOps best practices and model monitoring
-- 🧠 Causal Inference and Econometrics
-- ⚡ Real-time ML systems and streaming data
-- 🔐 Privacy-preserving machine learning techniques
-
----
-
-## 📊 GitHub Statistics
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MrEleden&show_icons=true&theme=default)
-
----
-
-## 🎯 Interests & Hobbies
-
-When I'm not training models or analyzing data, you can find me:
-
-- 📖 Reading research papers and ML blogs
-- 🎓 Teaching and mentoring aspiring data scientists
-- 💻 Contributing to open-source ML projects
-- 🏃 Running and staying active
-- ♟️ Playing chess
-- 📸 Photography and data visualization
+- � Production ML systems and scalable architectures
+- 📊 Time series forecasting and anomaly detection
+- 🎯 Recommendation systems and personalization
+- �️ Computer vision and image processing
+- 🔧 MLOps and experiment tracking
+- 📈 Statistical modeling and optimization
 
 ---
 
 ## 🤝 Let's Connect!
 
-I'm always excited to discuss ML/AI projects, collaborate on research, or just chat about the latest developments in the field.
+I'm always interested in discussing ML/AI projects, collaborating on innovative solutions, or exploring new opportunities in the field.
 
-**Professional Network**:
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+**Contact Information**:
+- 📧 Email: [m.villerabel@gmail.com](mailto:m.villerabel@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/mathias-villerabel-ba32b0146](https://www.linkedin.com/in/mathias-villerabel-ba32b0146/)
 - 🐙 GitHub: [github.com/MrEleden](https://github.com/MrEleden)
-- 🐦 Twitter: [@yourhandle](#)
-- 📝 Medium: [medium.com/@yourhandle](#)
-
-**Schedule a Call**: [Calendly Link](#)
 
 ---
 
-## 📄 Download Resume
+## 📄 Download CV
 
-[📥 Download Full Resume (PDF)](#)
-
----
-
-## 💬 Testimonials
-
-> "An exceptional data scientist with deep technical knowledge and the ability to translate complex problems into elegant solutions."  
-> — **[Name]**, [Title] at [Company]
-
-> "Outstanding ML engineer who consistently delivers high-quality work and mentors team members effectively."  
-> — **[Name]**, [Title] at [Company]
+[📥 Download Full CV (PDF)](./assets/pdf/cv_villerabel_mathias_2025_eng.pdf)
 
 ---
 
