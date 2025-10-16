@@ -12,10 +12,10 @@ Hi! I'm **Mathias Villerabel**, an **AI Engineer** and **Data Scientist** passio
 
 ## 🚀 Featured Projects
 
-### [Project 1: Time Series Forecasting Demo](./projects.html#project1)
+### [Project 1: Time Series Forecasting at Scale](./projects.html#project1)
 
 ![Forecasting Dashboard](./assets/img/Screenshot%202025-10-15%20120608.png)
-![Forecasting Results](./assets/img/Screenshot%202025-10-15%20120714.png)
+
 
 Production-grade forecasting portfolio demonstrating reusable components across retail, rideshare, and inventory domains. Features multiple model architectures with MLflow tracking and Optuna optimization.
 - **Tech Stack**: Python, PyTorch, Hydra, MLflow, Optuna, Streamlit
