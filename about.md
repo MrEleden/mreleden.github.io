@@ -27,91 +27,96 @@ I specialize in the complete machine learning lifecycle—from problem formulati
 
 ## 🎓 Education
 
-**Engineering Degree in Computer Science**  
-*Engineering School* | France  
+**Master / Engineering Degree in Computer Science**  
+Sorbonne University (ex UPMC) | France  
 Specialization: Machine Learning, Data Science, and Software Engineering
 
 ---
 
-## 💼 Professional Experience & Projects
+## 💼 Professional Experience
 
-### AI Engineer & Data Scientist
-**Independent Projects & Portfolio** | 2024 - Present
+### Data Scientist
+**Swiss Re** | Zurich, Switzerland | Sep. 2023 – Present
 
-**Time Series Forecasting Portfolio**
-- Developed comprehensive forecasting system with 10+ model architectures (LightGBM, XGBoost, Prophet, LSTM, TCN, Transformer)
-- Achieved 7.1% MAPE on Walmart retail sales forecasting with 80K+ time series samples
-- Implemented complete MLOps workflow with Hydra, MLflow, and Optuna
-- Deployed interactive Streamlit dashboard for model comparison and visualization
-- Containerized solution with Docker for production-ready deployment
+- Built an **IFRS 17 actuarial/financial simulation engine** (cash flows, discounting, Contractual Service Margin) to benchmark EY outputs and ensure regulatory compliance
+- Automated **end-to-end reconciliation** (General Ledger ↔ actuarial models), cutting manual work from multi-day reviews to **< 2 hours per run** and improving auditability & reproducibility
+- Designed and optimized **PySpark pipelines in Palantir Foundry**, scaling to **10⁹+ accounting records per batch** and integrating with downstream financial reporting systems
 
-**Movie Recommendation System**
-- Built multiple recommendation models: Deep Collaborative Filtering, Hybrid, and Content-based approaches
-- Achieved RMSE ~0.323 on MovieLens dataset (100K+ ratings)
-- Deployed live demo on Hugging Face Spaces with Gradio and Streamlit interfaces
-- Implemented comprehensive experiment tracking and hyperparameter optimization
+### Data Scientist
+**Pernod Ricard** | Paris, France | Jan. 2023 – Aug. 2023
 
-**Computer Vision: Floorplan Segmentation**
-- Developed semantic segmentation system using DeepLabV3 with ResNet50 backbone
-- Achieved 99.4% accuracy on RPLAN dataset (80K+ architectural images)
-- Solved severe class imbalance challenge (Background: 96.2%, Walls: 3.7%)
-- Implemented morphological postprocessing pipeline with OpenCV
-- Exported models to ONNX format for cross-platform deployment
+- Developed **time-series forecasting and ML models** (ARIMA, gradient boosting) and designed a custom **PyTorch framework** for scalable training/inference
+- Improved **3-month demand forecasts by 12%** vs. Financial Analyst baseline
 
-### Technical Skills Applied
-- **Development**: Python, SQL, Git, CI/CD
-- **ML/DL Frameworks**: PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, CatBoost
-- **MLOps Tools**: Hydra, MLflow, Optuna, Docker, FastAPI
-- **Data Processing**: Pandas, NumPy, OpenCV, Albumentations
-- **Visualization**: Matplotlib, Seaborn, Plotly, Streamlit, Gradio
-- **Cloud & Deployment**: Hugging Face Spaces, Streamlit Cloud, GitHub Actions
+### Research & Applied Scientist
+**Synspective** | Tokyo, Japan | Dec. 2019 – Jan. 2023
+
+- Automated detection of **new construction from SAR time series** (InSAR coherence + intensity), improving urban growth monitoring
+- Delivered a **cloud-based Earth observation platform** with dynamic caching on Google Cloud, reducing data latency for SDG indicators in economics and environment
+- Built scalable **object detection models for maritime trade** (containers, cars, trucks, ships); awarded **2nd Prize at the NEDO Challenge**
+- Applied Earth observation and machine learning methods during **NASA, ESA & JAXA hackathons** to address real-world challenges such as wildfire monitoring and prediction
+
+### Machine Learning Intern
+**National Institute of Informatics** | Tokyo, Japan | Mar. 2019 – Aug. 2019
+
+- Developed **action detection models** combining MobileNetV2 with segmentation/regression maps and LSTM for temporal recognition
+- Integrated deep learning into **UAV systems** for search & rescue and surveillance; **published in IEEE Access**
 
 ---
 
 ## 🛠️ Technical Expertise
 
 ### Programming Languages
-```
-Python          ████████████████████  Expert
-R               ████████████████░░░░  Advanced
-SQL             ████████████████████  Expert
-Bash/Shell      ███████████████░░░░░  Advanced
-Java            ██████████░░░░░░░░░░  Intermediate
-```
+- **Python** (Expert) - Primary language for ML/DS, data engineering, and automation
+- **C/C++** - Systems programming and performance-critical applications
+- **Java** - Object-oriented programming and enterprise applications
+- **Shell/Bash** - Scripting and automation
+- **MATLAB** - Scientific computing and algorithm development
+- **Prolog** - Logic programming
 
-### Machine Learning & AI
-- **Classical ML**: Gradient Boosting (XGBoost, LightGBM, CatBoost), Ensemble Methods
-- **Deep Learning**: CNNs, RNNs, LSTMs, TCN, Transformers, DeepLabV3
-- **Time Series**: Prophet, ARIMA, SARIMA, LSTM, TCN, Transformer architectures
-- **Computer Vision**: Semantic Segmentation, DeepLabV3, Image Processing, ONNX
-- **Recommender Systems**: Collaborative Filtering, Deep CF, Hybrid Models, Matrix Factorization
+### Data & ML Libraries
+- **Deep Learning**: PyTorch, TensorFlow/Keras
+- **Machine Learning**: scikit-learn, XGBoost (and other gradient boosting frameworks)
+- **MLOps**: MLflow, Hydra, Optuna
+- **Data Processing**: NumPy, Pandas, GeoPandas, rasterio
+- **Package Management**: Poetry
 
-### Tools & Frameworks
-- **ML/DL**: PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, CatBoost
-- **Data**: Pandas, NumPy, SQL
-- **Visualization**: Matplotlib, Seaborn, Plotly, Streamlit, Gradio
-- **MLOps**: Hydra, MLflow, Optuna, Docker, FastAPI
-- **Computer Vision**: OpenCV, Albumentations, ONNX
-- **Deployment**: Streamlit, Gradio, FastAPI, Hugging Face Spaces, Docker
+### Big Data & Cloud
+- **Big Data**: PySpark
+- **Cloud Platforms**: Palantir Foundry, Google Cloud, Azure Cloud, AWS SageMaker, Vertex AI
+- **Data Engineering**: Scalable pipeline design (10⁹+ records)
 
-### Specializations
-- **Time Series Forecasting**: Multi-model benchmarking, statistical & DL approaches
-- **Recommender Systems**: Neural collaborative filtering, hybrid models
-- **Computer Vision**: Semantic segmentation, class imbalance handling
-- **MLOps**: Experiment tracking, hyperparameter optimization, reproducible research
-- **Production Deployment**: API serving, containerization, cloud deployment
-- **Configuration Management**: Hydra-based experiment workflows
+### DevOps & Tools
+- **Version Control**: GitHub, Git
+- **CI/CD**: GitHub Actions, Black (code formatting), pytest, pre-commit hooks, SonarQube (code quality), Flake8, isort
+- **Containerization**: Docker, ONNX (model export)
+- **Development**: Vscode, pycharm, Emacs
+- **Documentation**: LaTeX, Sphinx
+
+### Databases
+- **SQL** (Expert) - Query optimization and data modeling
+- **MySQL** - Relational database management
+
+### Machine Learning & AI Specializations
+- **Time Series Forecasting**: ARIMA, Prophet, gradient boosting, LSTM, TCN, Transformers
+- **Computer Vision**: Object detection, semantic segmentation, SAR image analysis, InSAR coherence
+- **Deep Learning Architectures**: CNNs, RNNs, LSTMs, MobileNetV2, DeepLabV3, action detection models
+- **Earth Observation**: SAR time series analysis, urban monitoring, maritime trade detection
+- **Financial ML**: Actuarial modeling, IFRS 17 simulation, reconciliation automation
+- **Demand Forecasting**: Custom PyTorch frameworks, production ML pipelines
+- **MLOps**: Experiment tracking, hyperparameter optimization, reproducible research, containerization
+- **Model Monitoring**: Online monitoring (real-time predictions, drift detection), Offline monitoring (batch evaluation, A/B testing, performance metrics)
 
 ---
 
-## 🌟 Areas of Interest
+## 🌟 Areas of Expertise
 
-- � Production ML systems and scalable architectures
-- 📊 Time series forecasting and anomaly detection
-- 🎯 Recommendation systems and personalization
-- �️ Computer vision and image processing
-- 🔧 MLOps and experiment tracking
-- 📈 Statistical modeling and optimization
+- 📊 **Financial Technology**: Actuarial modeling, IFRS 17 compliance, reconciliation automation
+- 🛰️ **Earth Observation**: SAR image analysis, InSAR, urban monitoring, SDG indicators
+- � **Time Series Analysis**: Demand forecasting, financial simulation, temporal pattern recognition
+- 🤖 **Computer Vision**: Object detection, semantic segmentation, UAV systems
+- ⚙️ **Big Data Engineering**: PySpark pipelines, cloud platforms (10⁹+ records/batch)
+- 🔧 **MLOps**: Production ML systems, experiment tracking, scalable architectures
 
 ---
 
