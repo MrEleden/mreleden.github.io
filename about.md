@@ -18,10 +18,10 @@ I'm a passionate **AI Engineer** and **Data Scientist** with expertise in buildi
 I specialize in the complete machine learning lifecycle—from problem formulation and exploratory data analysis to model deployment, monitoring, and optimization. My approach combines deep technical expertise with practical engineering to deliver solutions that create real business value.
 
 ### Core Competencies
-- **Time Series Forecasting**: Statistical and deep learning models with MLflow tracking and Optuna optimization
-- **Recommendation Systems**: Collaborative filtering, deep learning, and hybrid approaches with production deployment
-- **Computer Vision**: Semantic segmentation, handling class imbalance, and ONNX model export
-- **MLOps**: Hydra configuration management, experiment tracking, containerization, and cloud deployment
+- **Time Series Forecasting**: Statistical models (ARIMA, Prophet) and deep learning architectures (LSTM, TCN, Transformers) with experiment tracking, hyperparameter optimization, and production deployment
+- **Computer Vision**: Semantic segmentation, object detection, model optimization for edge deployment, handling class imbalance, and ONNX export for inference
+- **ML Engineering & MLOps**: End-to-end ML system design, feature engineering, model serving, CI/CD pipelines, experiment tracking (MLflow), orchestration (Hydra), containerization (Docker), model monitoring, and A/B testing
+- **Recommendation Systems**: Collaborative filtering, content-based filtering, deep learning embeddings, and hybrid approaches with scalable production deployment
 
 ---
 

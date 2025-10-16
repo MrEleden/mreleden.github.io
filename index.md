@@ -71,11 +71,10 @@ Computer vision project for semantic segmentation of architectural floorplans us
 I'm always interested in collaborating on exciting ML/Data Science projects. Feel free to reach out!
 
 - **GitHub**: [github.com/MrEleden](https://github.com/MrEleden)
-- **LinkedIn**: [Your LinkedIn Profile](#)
-- **Email**: your.email@example.com
-- **Blog**: [Medium/Personal Blog](#)
+- **LinkedIn**: [linkedin.com/in/mathias-villerabel-ba32b0146](https://www.linkedin.com/in/mathias-villerabel-ba32b0146/)
+- **Email**: [m.villerabel@gmail.com](mailto:m.villerabel@gmail.com)
 
-[Learn More About Me →](./about.html)
+[Learn More About Me →](./about.html) | [📚 Recommended Books →](./books.html)
 
 ---
 

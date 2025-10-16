@@ -103,13 +103,8 @@ A: Absolutely! I enjoy speaking at conferences and meetups. Send me an invitatio
 - 📥 [Download My CV (PDF)](./assets/pdf/cv_villerabel_mathias_2025_eng.pdf)
 - 📊 [View My GitHub Profile](https://github.com/MrEleden)
 - 🎬 [Try My Live Demos](./projects.html)
-- 💼 [LinkedIn Profile](https://linkedin.com/in/yourprofile)
-
----
-
-## 🔐 PGP Key
-
-For encrypted communications: [Download PGP Public Key](#)
+- 💼 [LinkedIn Profile](https://www.linkedin.com/in/mathias-villerabel-ba32b0146/)
+- � [Recommended Books](./books.html)
 
 ---
 
@@ -119,4 +114,4 @@ For encrypted communications: [Download PGP Public Key](#)
 
 ---
 
-[← Back to Home](./index.html) | [View Projects →](./projects.html) | [About Me →](./about.html)
+[← Back to Home](./index.html) | [View Projects →](./projects.html) | [About Me →](./about.html) | [📚 Books →](./books.html)
