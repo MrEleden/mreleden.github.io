@@ -24,9 +24,12 @@ Production-grade forecasting portfolio demonstrating reusable components across 
 
 ### [Project 2: Movie Recommendation System](./projects.html#project2)
 
+![Movie Recommendation System](./assets/img/Screenshot%202025-10-20%20113817.png)
+
 End-to-end recommendation system with multiple ML models showcasing the evolution from PyTorch basics to production deployment with experiment tracking and hyperparameter tuning.
 - **Tech Stack**: PyTorch, Hydra, MLflow, Optuna, Gradio, Streamlit
 - **Results**: RMSE ~0.323, deployed on Hugging Face Spaces, 100K+ ratings processed
+- **Live Demo**: [Try on Hugging Face Spaces](https://huggingface.co/spaces/MrEleden/movie-reco-demo)
 
 ### [Project 3: Floorplan Wall Segmentation](./projects.html#project3)
 
