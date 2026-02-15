@@ -43,6 +43,31 @@ Computer vision project for semantic segmentation of architectural floorplans us
 
 ---
 
+## 💼 Professional Experience
+
+### Data Scientist — Swiss Re | Zurich, Switzerland | Sep. 2023 – Jun. 2025
+- Built an **IFRS 17 actuarial/financial simulation engine** (cash flows, discounting, CSM) to benchmark EY outputs and ensure regulatory compliance
+- Automated **end-to-end reconciliation** (GL ↔ actuarial models), cutting manual reviews from days to **< 2 hours per run**
+- Designed **PySpark pipelines in Palantir Foundry** scaling to **10⁹+ accounting records per batch**
+
+### Data Scientist — Pernod Ricard | Paris, France | Jan. 2023 – Aug. 2023
+- Developed **time-series forecasting models** (ARIMA, gradient boosting, custom PyTorch framework)
+- Improved **3-month demand forecasts by 12%** vs. Financial Analyst baseline
+
+### Research & Applied Scientist — Synspective | Tokyo, Japan | Dec. 2019 – Jan. 2023
+- Automated **SAR-based construction detection** for urban growth monitoring
+- Built **object detection models for maritime trade**; awarded **2nd Prize at NEDO Challenge**
+- Delivered a **cloud-based Earth observation platform** on Google Cloud
+
+### ML Intern — National Institute of Informatics | Tokyo, Japan | 2019
+- Developed **action detection models** (MobileNetV2 + LSTM) for UAV systems; **published in IEEE Access**
+
+🎓 **Education**: Master / Engineering Degree in Computer Science — Sorbonne University (ex UPMC), France
+
+[Full experience & details →](./about.html)
+
+---
+
 ## 🎯 Core Competencies
 
 ### Machine Learning & AI
@@ -81,4 +106,4 @@ I'm always interested in collaborating on exciting ML/Data Science projects. Fee
 
 ---
 
-_Last Updated: October 2025_
+_Last Updated: February 2026_

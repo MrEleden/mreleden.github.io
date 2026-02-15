@@ -36,7 +36,7 @@ Specialization: Machine Learning, Data Science, and Software Engineering
 ## 💼 Professional Experience
 
 ### Data Scientist
-**Swiss Re** | Zurich, Switzerland | Sep. 2023 – Present
+**Swiss Re** | Zurich, Switzerland | Sep. 2023 – Jun. 2025
 
 - Built an **IFRS 17 actuarial/financial simulation engine** (cash flows, discounting, Contractual Service Margin) to benchmark EY outputs and ensure regulatory compliance
 - Automated **end-to-end reconciliation** (General Ledger ↔ actuarial models), cutting manual work from multi-day reviews to **< 2 hours per run** and improving auditability & reproducibility

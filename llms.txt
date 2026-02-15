@@ -1,0 +1,61 @@
+# Mathias Villerabel
+
+> AI Engineer & Data Scientist based in Zurich, Switzerland. Specializes in production ML systems, time series forecasting, computer vision, and large-scale data engineering.
+
+## Most Recent Role
+
+Data Scientist at Swiss Re (Sep 2023 - Jun 2025)
+- Built IFRS 17 actuarial/financial simulation engine for regulatory compliance
+- Automated end-to-end reconciliation (GL to actuarial models), reducing manual review from days to < 2 hours
+- Designed PySpark pipelines in Palantir Foundry scaling to 1 billion+ accounting records per batch
+
+## Previous Experience
+
+Data Scientist at Pernod Ricard, Paris (Jan 2023 - Aug 2023)
+- Time-series forecasting (ARIMA, gradient boosting, custom PyTorch framework)
+- Improved 3-month demand forecasts by 12% vs. baseline
+
+Research & Applied Scientist at Synspective, Tokyo (Dec 2019 - Jan 2023)
+- SAR-based construction detection for urban growth monitoring
+- Object detection for maritime trade; 2nd Prize at NEDO Challenge
+- Cloud-based Earth observation platform on Google Cloud
+
+ML Intern at National Institute of Informatics, Tokyo (2019)
+- Action detection models (MobileNetV2 + LSTM) for UAV systems
+- Published in IEEE Access
+
+## Education
+
+Master / Engineering Degree in Computer Science - Sorbonne University (ex UPMC), France
+Specialization: Machine Learning, Data Science, Software Engineering
+
+## Key Skills
+
+- Languages: Python (expert), SQL, C/C++, Bash
+- ML/DL: PyTorch, TensorFlow, scikit-learn, XGBoost, LightGBM
+- Big Data: PySpark, Palantir Foundry
+- Cloud: Google Cloud, Azure, AWS SageMaker, Vertex AI
+- MLOps: MLflow, Hydra, Optuna, Docker, GitHub Actions
+- Domains: Time series forecasting, computer vision, NLP, actuarial modeling, Earth observation
+
+## Portfolio Projects
+
+- Time Series Forecasting at Scale: Production forecasting across retail, rideshare, inventory. 7.1% MAPE on Walmart. PyTorch, MLflow, Optuna, Streamlit.
+- Movie Recommendation System: End-to-end with collaborative filtering and deep learning. RMSE ~0.323. Deployed on Hugging Face Spaces.
+- Floorplan Wall Segmentation: Semantic segmentation with DeepLabV3. 99.4% accuracy, ONNX export.
+
+## Links
+
+- Website: https://mreleden.github.io
+- GitHub: https://github.com/MrEleden
+- LinkedIn: https://www.linkedin.com/in/mathias-villerabel-ba32b0146/
+- Email: m.villerabel@gmail.com
+- CV (PDF): https://mreleden.github.io/assets/pdf/cv_villerabel_mathias_2025_eng.pdf
+
+## Pages
+
+- Home: https://mreleden.github.io/
+- About: https://mreleden.github.io/about.html
+- Projects: https://mreleden.github.io/projects.html
+- Books: https://mreleden.github.io/books.html
+- Contact: https://mreleden.github.io/contact.html
