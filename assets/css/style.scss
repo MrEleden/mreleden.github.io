@@ -442,7 +442,19 @@ header p.view a:hover {
   transform: translateX(4px);
 }
 
-/* CV download button in sidebar */
+/* CTA block on homepage */
+.cta-block {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.cta-block .cv-download-btn {
+  width: auto;
+}
+
+/* CV download button */
 .cv-download-btn {
   display: inline-block;
   padding: 10px 18px;

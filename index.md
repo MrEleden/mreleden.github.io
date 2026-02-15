@@ -2,11 +2,23 @@
 layout: default
 ---
 
-# Mathias Villerabel — ML Engineer
+# Mathias Villerabel — AI Engineer
 
-I build machine learning systems that ship. Currently at Equans, I engineer the **full stack from IoT sensors to production ML** — Azure IoT Hub, Kafka, Spark/Polars pipelines, distributed feature engineering, and model serving/monitoring on Palantir Foundry for industrial refrigeration. Previously at Swiss Re I built PySpark pipelines processing **10⁹+ accounting records per batch**, an **IFRS 17 simulation engine**, and automated reconciliation from multi-day reviews to **< 2 hours**. At Pernod Ricard I improved demand forecasts by **12%** over analyst baselines.
+Production ML for time-series, IoT, and large-scale data pipelines.
 
-**[Download My CV (PDF)](./assets/pdf/cv_villerabel_mathias_2025_eng.pdf)**
+- **10⁹+ records/batch** — PySpark pipelines at Swiss Re
+- **12% forecast lift** — demand prediction at Pernod Ricard
+- **< 2h reconciliation** — automated from multi-day manual reviews
+- **Real-time IoT ML** — sensor-to-model pipelines at Equans
+
+<div class="cta-block">
+<a href="./assets/pdf/cv_villerabel_mathias_2025_eng.pdf" class="cv-download-btn">Download CV (PDF)</a>
+<a href="mailto:m.villerabel@gmail.com" class="cv-download-btn">Email me</a>
+</div>
+
+---
+
+I build machine learning systems that ship. Currently at Equans, I own the full pipeline from IoT sensors to production ML — Azure IoT Hub, Kafka, Spark/Polars for distributed feature engineering, model serving and monitoring on Palantir Foundry. Previously built billion-record pipelines and IFRS 17 simulation engines at Swiss Re, and custom PyTorch forecasting frameworks at Pernod Ricard. Before that, 3 years of applied research in Tokyo (SAR/computer vision, published in IEEE Access, 2nd Prize at NEDO Challenge).
 
 ---
 
@@ -16,78 +28,61 @@ I build machine learning systems that ship. Currently at Equans, I engineer the 
 
 ![Forecasting Dashboard](./assets/img/Screenshot%202025-10-15%20120608.png)
 
-Production-grade forecasting portfolio with 10+ model architectures across retail, rideshare, and inventory domains. Config-driven (Hydra), tracked (MLflow), optimized (Optuna), containerized (Docker), served (FastAPI).
-- **Results**: 7.1% MAPE on Walmart retail, 80K+ samples processed
-- **Live Demo**: [Try the Streamlit App](https://forecastingdemo-jgkrsrcxen3wzvjcappbgra.streamlit.app/)
+> **Stack**: PyTorch, Hydra, MLflow, Optuna, FastAPI, Docker, Streamlit | **Result**: 7.1% MAPE on Walmart M5 (28-day horizon, walk-forward validation) | [Repo](https://github.com/MrEleden/forecasting_demo) &#124; [Demo](https://forecastingdemo-jgkrsrcxen3wzvjcappbgra.streamlit.app/) *(~30s cold start)*
+
+Production-grade forecasting with 10+ model architectures across retail, rideshare, and inventory domains. Config-driven experiments, tracked runs, Bayesian HPO, containerized serving.
 
 ### [Movie Recommendation System](./projects.html#project2)
 
 ![Movie Recommendation System](./assets/img/Screenshot%202025-10-20%20113817.png)
 
-End-to-end recommendation system — 4 model architectures, 100K+ ratings, deployed on Hugging Face Spaces with Gradio and Streamlit interfaces.
-- **Results**: RMSE ~0.323, full ML lifecycle from training to global inference API
-- **Live Demo**: [Try on Hugging Face Spaces](https://huggingface.co/spaces/MrEleden/movie-reco-demo)
+> **Stack**: PyTorch, Hydra, MLflow, Optuna, Gradio, Streamlit | **Result**: RMSE ~0.323 on MovieLens (100K+ ratings) | [Repo](https://github.com/MrEleden/reco_app) &#124; [Demo](https://huggingface.co/spaces/MrEleden/movie-reco-demo) *(~30s cold start)*
+
+End-to-end recommendation system — 4 architectures, full ML lifecycle from training to global inference API on Hugging Face Spaces.
 
 ### [Floorplan Wall Segmentation](./projects.html#project3)
 
 ![Wall Segmentation](./assets/img/best_validation_sample.png)
 
-Computer vision for architectural floorplan segmentation — DeepLabV3 + ResNet50 handling extreme class imbalance (96.2% background vs 3.7% walls). ONNX export for cross-platform deployment.
-- **Results**: 99.4% accuracy, 80K+ training samples, 50ms inference
+> **Stack**: PyTorch, DeepLabV3, OpenCV, Hydra, ONNX | **Result**: 99.4% pixel accuracy (wall-class F1 significantly above baseline despite 96/4 class split) | [Repo](https://github.com/MrEleden/computer_vision_2d_to_3d)
+
+Computer vision for architectural floorplan segmentation — handling extreme class imbalance with class weighting, morphological postprocessing, and ONNX export. 50ms inference.
 
 [View All Projects →](./projects.html)
 
 ---
 
-## Professional Experience
+## Experience
 
-### AI Engineer — Equans | Paris, France | Jul. 2025 – Present
-- Engineering **end-to-end data pipelines**: Azure IoT Hub → Kafka/Event Hubs → Palantir Foundry streaming, batch on **Spark/Polars**
-- Building **distributed feature engineering on Spark** and **predictive maintenance models** for industrial refrigeration fleets
-- Implementing **model serving and monitoring** — online inference, drift detection, automated retraining, SLA-based alerting
+### AI Engineer — Equans | Paris | Jul. 2025 – Present
+- End-to-end data pipelines: Azure IoT Hub → Kafka → Palantir Foundry streaming, batch on Spark/Polars
+- Distributed feature engineering and predictive maintenance models for industrial refrigeration fleets
+- Model serving and monitoring — online inference, drift detection, automated retraining
 
-### Data Scientist — Swiss Re | Zurich, Switzerland | Sep. 2023 – Jun. 2025
-- Built an **IFRS 17 actuarial/financial simulation engine** (cash flows, discounting, CSM) to benchmark EY outputs and ensure regulatory compliance
-- Automated **end-to-end reconciliation** (GL ↔ actuarial models), cutting manual reviews from days to **< 2 hours per run**
-- Designed **PySpark pipelines in Palantir Foundry** scaling to **10⁹+ accounting records per batch**
+### Data Scientist — Swiss Re | Zurich | Sep. 2023 – Jun. 2025
+- IFRS 17 simulation engine (cash flows, discounting, CSM) to benchmark EY outputs
+- Automated reconciliation (GL ↔ actuarial models), days → < 2 hours per run
+- PySpark pipelines in Palantir Foundry scaling to 10⁹+ records/batch
 
-### Data Scientist — Pernod Ricard | Paris, France | Jan. 2023 – Aug. 2023
-- Developed **time-series forecasting models** (ARIMA, gradient boosting, custom PyTorch framework)
-- Improved **3-month demand forecasts by 12%** vs. Financial Analyst baseline
+### Data Scientist — Pernod Ricard | Paris | Jan. 2023 – Aug. 2023
+- Time-series forecasting (ARIMA, gradient boosting, custom PyTorch framework)
+- 3-month demand forecasts improved by 12% vs. analyst baseline
 
-### Research & Applied Scientist — Synspective | Tokyo, Japan | Dec. 2019 – Jan. 2023
-- Automated **SAR-based construction detection** for urban growth monitoring
-- Built **object detection models for maritime trade**; awarded **2nd Prize at NEDO Challenge**
-- Delivered a **cloud-based Earth observation platform** on Google Cloud
+### Research & Applied Scientist — Synspective | Tokyo | Dec. 2019 – Jan. 2023
+- SAR-based construction detection, object detection for maritime trade (2nd Prize NEDO Challenge)
+- Cloud-based Earth observation platform on Google Cloud
 
-### ML Intern — National Institute of Informatics | Tokyo, Japan | 2019
-- Developed **action detection models** (MobileNetV2 + LSTM) for UAV systems; **published in IEEE Access**
+### ML Intern — National Institute of Informatics | Tokyo | 2019
+- Action detection models (MobileNetV2 + LSTM) for UAV systems — published in IEEE Access
 
-**Education**: Master / Engineering Degree in Computer Science — Sorbonne University, France
+**Education**: MSc Computer Science — Sorbonne University, France
 
-[Full experience & details →](./about.html)
-
----
-
-## Core Strengths
-
-- **Production ML Pipelines** — End-to-end systems from data ingestion to model serving, built to handle billions of records and real-time IoT streams
-- **Predictive Maintenance & IoT** — Online/offline ML for industrial systems, streaming sensor data, anomaly detection, model serving and monitoring in production
-- **Time Series & Forecasting** — Statistical and deep learning approaches (ARIMA, LSTM, TCN, Transformers) with 12% improvement over analyst baselines
-- **Computer Vision** — Object detection, semantic segmentation, SAR analysis; 2nd Prize at NEDO Challenge
-- **MLOps & Reproducibility** — Config-driven experiments (Hydra), tracked (MLflow), optimized (Optuna), containerized (Docker)
-- **Data Engineering at Scale** — Azure IoT Hub, Kafka/Event Hubs, PySpark, Polars, Palantir Foundry, distributed feature engineering
+[Full details →](./about.html)
 
 ---
 
-## Get In Touch
+## Contact
 
-- **GitHub**: [github.com/MrEleden](https://github.com/MrEleden)
-- **LinkedIn**: [linkedin.com/in/mathias-villerabel-ba32b0146](https://www.linkedin.com/in/mathias-villerabel-ba32b0146/)
 - **Email**: [m.villerabel@gmail.com](mailto:m.villerabel@gmail.com)
-
-[Learn More About Me →](./about.html) | [Recommended Books →](./books.html)
-
----
-
-_Last Updated: February 2026_
+- **LinkedIn**: [linkedin.com/in/mathias-villerabel-ba32b0146](https://www.linkedin.com/in/mathias-villerabel-ba32b0146/)
+- **GitHub**: [github.com/MrEleden](https://github.com/MrEleden)
