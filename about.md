@@ -3,6 +3,8 @@ layout: default
 title: About Me
 ---
 
+[← Home](./index.html)
+
 # About Mathias Villerabel
 
 ---

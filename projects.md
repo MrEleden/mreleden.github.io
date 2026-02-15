@@ -3,6 +3,8 @@ layout: default
 title: Projects
 ---
 
+[← Home](./index.html)
+
 # Projects
 
 Production-focused ML projects — end-to-end system design from model development through deployment and monitoring.

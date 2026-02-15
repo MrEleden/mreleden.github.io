@@ -3,6 +3,8 @@ layout: default
 title: Books
 ---
 
+[← Home](./index.html)
+
 # Recommended Reading
 
 Books that shaped how I think about ML engineering.

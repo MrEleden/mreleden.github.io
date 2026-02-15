@@ -3,6 +3,8 @@ layout: default
 title: Contact
 ---
 
+[← Home](./index.html)
+
 # Contact
 
 Best for: production ML, forecasting, IoT/predictive maintenance, data engineering at scale.
