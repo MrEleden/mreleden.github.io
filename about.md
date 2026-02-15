@@ -35,6 +35,16 @@ Specialization: Machine Learning, Data Science, and Software Engineering
 
 ## 💼 Professional Experience
 
+### AI Engineer
+**Equans** | Paris, France | Jul. 2025 – Present
+
+- Engineering the **full data pipeline from edge to model**: Azure IoT Hub → Event Hubs/Kafka → Palantir Foundry streaming ingestion, with batch processing on **Spark and Polars** for historical backfill and feature stores
+- Building **distributed feature engineering on Spark** for predictive maintenance — computing rolling statistics, frequency-domain features, and cross-sensor correlations across fleets of industrial refrigeration units
+- Developing **predictive maintenance models** combining streaming IoT sensor data (temperature, pressure, vibration) with offline ML pipelines for anomaly detection and remaining useful life estimation
+- Implementing **model serving infrastructure** — online models for real-time alerting, offline models for long-horizon maintenance scheduling and fleet-level analytics
+- Operating **end-to-end model monitoring**: data drift detection, prediction quality tracking, automated retraining triggers, and SLA-based alerting to ensure model reliability in production
+- Owning the full **ML lifecycle in production** — from data engineering and feature engineering through training, deployment, A/B testing, and continuous monitoring
+
 ### Data Scientist
 **Swiss Re** | Zurich, Switzerland | Sep. 2023 – Jun. 2025
 
@@ -64,59 +74,19 @@ Specialization: Machine Learning, Data Science, and Software Engineering
 
 ---
 
-## 🛠️ Technical Expertise
+## 🛠️ Technical Skills
 
-### Programming Languages
-- **Python** (Expert) - Primary language for ML/DS, data engineering, and automation
-- **C/C++** - Systems programming and performance-critical applications
-- **Java** - Object-oriented programming and enterprise applications
-- **Shell/Bash** - Scripting and automation
-- **MATLAB** - Scientific computing and algorithm development
-- **Prolog** - Logic programming
+### ML / Deep Learning
+PyTorch, TensorFlow/Keras, scikit-learn, XGBoost, LightGBM, CatBoost — time series forecasting (ARIMA, Prophet, LSTM, TCN, Transformers), computer vision (DeepLabV3, MobileNetV2, object detection, semantic segmentation), recommendation systems, SAR/InSAR analysis
 
-### Data & ML Libraries
-- **Deep Learning**: PyTorch, TensorFlow/Keras
-- **Machine Learning**: scikit-learn, XGBoost (and other gradient boosting frameworks)
-- **MLOps**: MLflow, Hydra, Optuna
-- **Data Processing**: NumPy, Pandas, GeoPandas, rasterio
-- **Package Management**: Poetry
+### Data Engineering
+Azure IoT Hub, Kafka/Event Hubs, PySpark (10⁹+ records/batch), Polars, Pandas, NumPy, SQL, GeoPandas — streaming and batch pipelines on Palantir Foundry, Google Cloud, Azure, AWS SageMaker
 
-### Big Data & Cloud
-- **Big Data**: PySpark
-- **Cloud Platforms**: Palantir Foundry, Google Cloud, Azure Cloud, AWS SageMaker, Vertex AI
-- **Data Engineering**: Scalable pipeline design (10⁹+ records)
+### Cloud / MLOps
+Docker, MLflow, Hydra, Optuna, ONNX, GitHub Actions, pytest, pre-commit, SonarQube — experiment tracking, hyperparameter optimization, model monitoring, CI/CD
 
-### DevOps & Tools
-- **Version Control**: GitHub, Git
-- **CI/CD**: GitHub Actions, Black (code formatting), pytest, pre-commit hooks, SonarQube (code quality), Flake8, isort
-- **Containerization**: Docker, ONNX (model export)
-- **Development**: Vscode, pycharm, Emacs
-- **Documentation**: LaTeX, Sphinx
-
-### Databases
-- **SQL** (Expert) - Query optimization and data modeling
-- **MySQL** - Relational database management
-
-### Machine Learning & AI Specializations
-- **Time Series Forecasting**: ARIMA, Prophet, gradient boosting, LSTM, TCN, Transformers
-- **Computer Vision**: Object detection, semantic segmentation, SAR image analysis, InSAR coherence
-- **Deep Learning Architectures**: CNNs, RNNs, LSTMs, MobileNetV2, DeepLabV3, action detection models
-- **Earth Observation**: SAR time series analysis, urban monitoring, maritime trade detection
-- **Financial ML**: Actuarial modeling, IFRS 17 simulation, reconciliation automation
-- **Demand Forecasting**: Custom PyTorch frameworks, production ML pipelines
-- **MLOps**: Experiment tracking, hyperparameter optimization, reproducible research, containerization
-- **Model Monitoring**: Online monitoring (real-time predictions, drift detection), Offline monitoring (batch evaluation, A/B testing, performance metrics)
-
----
-
-## 🌟 Areas of Expertise
-
-- 📊 **Financial Technology**: Actuarial modeling, IFRS 17 compliance, reconciliation automation
-- 🛰️ **Earth Observation**: SAR image analysis, InSAR, urban monitoring, SDG indicators
-- � **Time Series Analysis**: Demand forecasting, financial simulation, temporal pattern recognition
-- 🤖 **Computer Vision**: Object detection, semantic segmentation, UAV systems
-- ⚙️ **Big Data Engineering**: PySpark pipelines, cloud platforms (10⁹+ records/batch)
-- 🔧 **MLOps**: Production ML systems, experiment tracking, scalable architectures
+### Languages
+Python (expert), SQL (expert), C/C++, Java, Shell/Bash, MATLAB
 
 ---
 
@@ -127,8 +97,6 @@ I'm always interested in discussing ML/AI projects, collaborating on innovative 
 **Contact Information**:
 - 📧 Email: [m.villerabel@gmail.com](mailto:m.villerabel@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/mathias-villerabel-ba32b0146](https://www.linkedin.com/in/mathias-villerabel-ba32b0146/)
-
-**[Learn More About Me →](./about.html)**
 
 - 🐙 GitHub: [github.com/MrEleden](https://github.com/MrEleden)
 

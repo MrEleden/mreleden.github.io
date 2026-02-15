@@ -106,7 +106,7 @@ Each project represents a step in this journey, adding layers of engineering sop
 
 ### Looking Forward
 
-These books continue to influence how I approach new challenges. As I work on production systems at Swiss Re and explore new domains, I consistently return to their principles: build systems not just models, prioritize reproducibility and maintainability, and always keep the end user in mind.
+These books continue to influence how I approach new challenges. As I build production systems — from predictive maintenance pipelines at Equans to billion-record PySpark jobs at Swiss Re — I consistently return to their principles: build systems not just models, prioritize reproducibility and maintainability, and always keep the end user in mind.
 
 The combination of Burkov's engineering rigor and Huyen's modern AI perspectives provides a complete framework for building ML systems that don't just work in notebooks, but thrive in production - solving real problems for real users.
 

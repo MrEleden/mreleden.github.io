@@ -2,48 +2,49 @@
 layout: default
 ---
 
-# Welcome to My ML & Data Science Portfolio
+# Mathias Villerabel — ML Engineer
 
-Hi! I'm **Mathias Villerabel**, an **AI Engineer** and **Data Scientist** passionate about leveraging data to solve real-world problems. I specialize in building scalable ML models, data pipelines, and deriving actionable insights from complex datasets.
+I build machine learning systems that ship. Currently at Equans, I engineer the **full stack from IoT sensors to production ML** — Azure IoT Hub, Kafka, Spark/Polars pipelines, distributed feature engineering, and model serving/monitoring on Palantir Foundry for industrial refrigeration. Previously at Swiss Re I built PySpark pipelines processing **10⁹+ accounting records per batch**, an **IFRS 17 simulation engine**, and automated reconciliation from multi-day reviews to **< 2 hours**. At Pernod Ricard I improved demand forecasts by **12%** over analyst baselines.
 
-📄 **[Download My CV (PDF)](./assets/pdf/cv_villerabel_mathias_2025_eng.pdf)**
+**[Download My CV (PDF)](./assets/pdf/cv_villerabel_mathias_2025_eng.pdf)**
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### [Project 1: Time Series Forecasting at Scale](./projects.html#project1)
+### [Time Series Forecasting at Scale](./projects.html#project1)
 
 ![Forecasting Dashboard](./assets/img/Screenshot%202025-10-15%20120608.png)
 
-
-Production-grade forecasting portfolio demonstrating reusable components across retail, rideshare, and inventory domains. Features multiple model architectures with MLflow tracking and Optuna optimization.
-- **Tech Stack**: Python, PyTorch, Hydra, MLflow, Optuna, Streamlit
-- **Results**: 7.1% MAPE on Walmart retail, 80K+ samples, comprehensive benchmark suite
+Production-grade forecasting portfolio with 10+ model architectures across retail, rideshare, and inventory domains. Config-driven (Hydra), tracked (MLflow), optimized (Optuna), containerized (Docker), served (FastAPI).
+- **Results**: 7.1% MAPE on Walmart retail, 80K+ samples processed
 - **Live Demo**: [Try the Streamlit App](https://forecastingdemo-jgkrsrcxen3wzvjcappbgra.streamlit.app/)
 
-### [Project 2: Movie Recommendation System](./projects.html#project2)
+### [Movie Recommendation System](./projects.html#project2)
 
 ![Movie Recommendation System](./assets/img/Screenshot%202025-10-20%20113817.png)
 
-End-to-end recommendation system with multiple ML models showcasing the evolution from PyTorch basics to production deployment with experiment tracking and hyperparameter tuning.
-- **Tech Stack**: PyTorch, Hydra, MLflow, Optuna, Gradio, Streamlit
-- **Results**: RMSE ~0.323, deployed on Hugging Face Spaces, 100K+ ratings processed
+End-to-end recommendation system — 4 model architectures, 100K+ ratings, deployed on Hugging Face Spaces with Gradio and Streamlit interfaces.
+- **Results**: RMSE ~0.323, full ML lifecycle from training to global inference API
 - **Live Demo**: [Try on Hugging Face Spaces](https://huggingface.co/spaces/MrEleden/movie-reco-demo)
 
-### [Project 3: Floorplan Wall Segmentation](./projects.html#project3)
+### [Floorplan Wall Segmentation](./projects.html#project3)
 
 ![Wall Segmentation](./assets/img/best_validation_sample.png)
 
-Computer vision project for semantic segmentation of architectural floorplans using deep learning, addressing severe class imbalance challenges.
-- **Tech Stack**: PyTorch, DeepLabV3, OpenCV, Hydra
-- **Results**: 99.4% accuracy, 80K+ training samples, ONNX export for deployment
+Computer vision for architectural floorplan segmentation — DeepLabV3 + ResNet50 handling extreme class imbalance (96.2% background vs 3.7% walls). ONNX export for cross-platform deployment.
+- **Results**: 99.4% accuracy, 80K+ training samples, 50ms inference
 
 [View All Projects →](./projects.html)
 
 ---
 
-## 💼 Professional Experience
+## Professional Experience
+
+### AI Engineer — Equans | Paris, France | Jul. 2025 – Present
+- Engineering **end-to-end data pipelines**: Azure IoT Hub → Kafka/Event Hubs → Palantir Foundry streaming, batch on **Spark/Polars**
+- Building **distributed feature engineering on Spark** and **predictive maintenance models** for industrial refrigeration fleets
+- Implementing **model serving and monitoring** — online inference, drift detection, automated retraining, SLA-based alerting
 
 ### Data Scientist — Swiss Re | Zurich, Switzerland | Sep. 2023 – Jun. 2025
 - Built an **IFRS 17 actuarial/financial simulation engine** (cash flows, discounting, CSM) to benchmark EY outputs and ensure regulatory compliance
@@ -62,47 +63,30 @@ Computer vision project for semantic segmentation of architectural floorplans us
 ### ML Intern — National Institute of Informatics | Tokyo, Japan | 2019
 - Developed **action detection models** (MobileNetV2 + LSTM) for UAV systems; **published in IEEE Access**
 
-🎓 **Education**: Master / Engineering Degree in Computer Science — Sorbonne University (ex UPMC), France
+**Education**: Master / Engineering Degree in Computer Science — Sorbonne University, France
 
 [Full experience & details →](./about.html)
 
 ---
 
-## 🎯 Core Competencies
+## Core Strengths
 
-### Machine Learning & AI
-- **Supervised Learning**: Regression, Classification, Ensemble Methods
-- **Unsupervised Learning**: Clustering, Dimensionality Reduction, Anomaly Detection
-- **Deep Learning**: Neural Networks, CNNs, RNNs, Transformers
-- **NLP**: Text Classification, Named Entity Recognition, Sentiment Analysis
-- **Computer Vision**: Image Classification, Object Detection, Segmentation
-
-### Data Science & Analytics
-- Exploratory Data Analysis (EDA)
-- Statistical Modeling & Hypothesis Testing
-- Feature Engineering & Selection
-- A/B Testing & Experimentation
-- Time Series Analysis & Forecasting
-
-### Technical Skills
-- **Languages**: Python, R, SQL, Bash
-- **ML Frameworks**: TensorFlow, PyTorch, Scikit-learn, XGBoost, LightGBM
-- **Data Tools**: Pandas, NumPy, Matplotlib, Seaborn, Plotly
-- **Big Data**: Apache Spark, Hadoop, Hive
-- **Cloud Platforms**: AWS (SageMaker, EC2, S3), Azure, GCP
-- **MLOps**: Docker, Kubernetes, MLflow, Git, CI/CD
+- **Production ML Pipelines** — End-to-end systems from data ingestion to model serving, built to handle billions of records and real-time IoT streams
+- **Predictive Maintenance & IoT** — Online/offline ML for industrial systems, streaming sensor data, anomaly detection, model serving and monitoring in production
+- **Time Series & Forecasting** — Statistical and deep learning approaches (ARIMA, LSTM, TCN, Transformers) with 12% improvement over analyst baselines
+- **Computer Vision** — Object detection, semantic segmentation, SAR analysis; 2nd Prize at NEDO Challenge
+- **MLOps & Reproducibility** — Config-driven experiments (Hydra), tracked (MLflow), optimized (Optuna), containerized (Docker)
+- **Data Engineering at Scale** — Azure IoT Hub, Kafka/Event Hubs, PySpark, Polars, Palantir Foundry, distributed feature engineering
 
 ---
 
-## 📫 Get In Touch
-
-I'm always interested in collaborating on exciting ML/Data Science projects. Feel free to reach out!
+## Get In Touch
 
 - **GitHub**: [github.com/MrEleden](https://github.com/MrEleden)
 - **LinkedIn**: [linkedin.com/in/mathias-villerabel-ba32b0146](https://www.linkedin.com/in/mathias-villerabel-ba32b0146/)
 - **Email**: [m.villerabel@gmail.com](mailto:m.villerabel@gmail.com)
 
-[Learn More About Me →](./about.html) | [📚 Recommended Books →](./books.html)
+[Learn More About Me →](./about.html) | [Recommended Books →](./books.html)
 
 ---
 
